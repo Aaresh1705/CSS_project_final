@@ -1,3 +1,10 @@
 theme: jekyll-theme-minimal
-title: Computational social science winal project; Musician community analysis in Denmark
+markdown: kramdown
+kramdown:
+  math_engine: mathjax          # or "mathjax" for MathJax, "katex" for KaTeX
+  math_engine_opts:
+    preview: true               # show a TeX preview until math renders
+    # For KaTeX you can also set delimiters, throwOnError, etc.
+
+title: Computational social science final project; Musician community analysis in Denmark
 description: This project is about analysing the local musician communities in Denmark.
