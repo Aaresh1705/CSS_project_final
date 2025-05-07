@@ -1,12 +1,5 @@
-This test is a test
+## Download the dataset
 
-I dont know what to write here
+You can download the raw CSV here:
 
-
-Hello
-
-Where does this text go?
-
-# Where did all of the artist go?
-
-$$E=mc^2+AI$$
+[⬇️ Download `musicians.csv`](data/musicians.csv)
