@@ -1,4 +1,4 @@
 #theme: jekyll-theme-minimal
-remote_theme: mmistakes/minimal-mistakes@4.24.0
+remote_theme: sermonindex/simple-dark@master
 title: Computational social science final project; Musician community analysis in Denmark
 description: This project is about analysing the local musician communities in Denmark.
