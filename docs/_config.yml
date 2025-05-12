@@ -1,4 +1,12 @@
 #theme: jekyll-theme-minimal
 remote_theme: sermonindex/simple-dark@master
+plugins:
+  - jekyll-remote-theme
+
+# Optional: Minimal Mistakes configuration
+# You can customize more depending on what features you need
+minimal_mistakes_skin: default
+markdown: kramdown
+
 title: Computational social science final project; Musician community analysis in Denmark
 description: This project is about analysing the local musician communities in Denmark.
