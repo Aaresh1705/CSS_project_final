@@ -1,3 +1,8 @@
+## Live Graphs
+
+- [Local Music Community Network](network.html)  
+- [Rotatable 3D Plot](rotatable_plot.html)  
+
 ## Downloads
 ### The dataset
 You can download the raw CSV here:\
