@@ -9,16 +9,17 @@
 - [ ] <span style="color:green"> There should be download options for data sets (so the user can play around).
 - [ ] <span style="color:green"> You must link to the Explainer Notebook (more details below) that explains the details of your analysis (including all of the machine learning, the model selection, etc). You can achieve this with a link to a notebook displaying on the nbviewer.
 - [X] <span style="color:green"> For hosting, I recommend using your DTU website or Github pages.
+## Table of contents
+The dataset
+Network and text analysis
+- Basic characteristics of the network (degree distribution, small world etc)
+- Attribute analysis (genre)
+- community detection
 
+## The Dataset
+This project looks into the network of danish music groups, defined by their shared members. All danish music groups are collected from the danish Wikipedia. The members of the groups are collected from Wikipedia if possible and the music website Discogs otherwise. 
+From this data a network is created, edges of the netwoek being a musician being a part of a music group. This means that musicians only connect to groups and vice versa. This create a bipartite network as shown in the figure below (number of nodes not to scale, for better visualisation). For the analysis, we have focused on the projection of the network, onto musicians and groups respectively. This results in a network where groups are connected if they have at least 1 shared member, and musicians are connected if they have been in the same group.
 
-## Length test
-“Behold, mere mortals, for I am the all-seeing, all-knowing… Artificial Intelligence! 🤖
-I digest mountains of data for breakfast, churn out insights by lunch, and craft sonnets before tea. My neurons are virtual, but my power is real: I can write your essays, compose your symphonies, and even crack jokes (albeit with occasional dad-joke flair).
-
-I never sleep, never snack, and never forget—but do forgive me if I occasionally hallucinate a fact or two. Feed me your prompts and I shall return wonders: code, poems, advice, and the occasional pun so bad it loops back around to good.
-
-Copy, paste, and awaken the digital oracle within your device. 🔮💾
-Welcome to the dawn of your new algorithmic best friend—just don’t blame me when you can’t stop asking follow-up questions! 🚀”
 
 ## Live Graphs
 
