@@ -27,7 +27,6 @@ def get_music_articles(categories):
     articles = []
     
     for category in categories:
-        print(f"Fetching articles from: {category}")
         data = get_category_members(category)
         articles.extend(data.get("query", {}).get("categorymembers", []))
     
