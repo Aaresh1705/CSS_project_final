@@ -16,9 +16,9 @@ description: Computational social science 02467 project B
 ## Downloads
 ### The dataset
 You can download the raw CSV here:\
-[⬇️ Download `musicians.csv`](/data/groups_final.csv) \
+[⬇️ Download `DanishMusicGroups.csv`](/data/groups_final.csv) \
 Or take a look at here:\
-[▶️ View `musicians.csv`](https://github.com/Aaresh1705/CSS_project_final/blob/main/data/groups_final.csv)
+[▶️ View `DanishMusicGroups.csv`](https://github.com/Aaresh1705/CSS_project_final/blob/main/data/groups_final.csv)
 
 ### The notebook
 You can download the notebook here:\
