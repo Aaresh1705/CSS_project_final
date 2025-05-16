@@ -27,40 +27,41 @@ description: Musician community analysis in Denmark
 
 ## Introduction
 
-For this assignment, we investigate the structure of Denmark’s local music scene by building a network that connects musicians to the bands they play with. '
+For this assignment, we investigate the structure of Denmark’s local music scene, by building a network that connects musicians to the bands they play with. 
+
 Our goal is to uncover patterns of collaboration, reveal how creative communities form, and perhaps highlight key individuals and groups that act as bridges across different scenes or genres.
 
-To do this, we constructed a bipartite network - a special kind of network made up of two different types of nodes: musicians and bands. 
-In our network, musicians are only connected to bands (and not to other musicians directly), and bands are only connected to musicians. From this, we can create two useful views: one where bands are linked if they share members, and another where musicians are linked if they’ve played in the same band.
+To do this, we constructed a bipartite network - a special kind of network made up of two different types of nodes: musicians and groups. 
+In our network, musicians are only connected to groups (and not to other musicians directly), and groups are only connected to musicians. From this, we can create two useful views: one where groups are linked if they share members, and another where musicians are linked if they’ve played in the same groups.
 
 We collected data on Danish music groups by going through all relevant categories on the Danish Wikipedia, and gathered information about group members either from Wikipedia pages or the music database Discogs when needed. 
 Once this data was cleaned and merged, we used it to build the network.
 
 Focusing on Denmark keeps the scope of the project manageable while still offering meaningful insights. 
-The final outcome will be this interactive website, where you can explore how artists and bands are interconnected. 
+The final outcome is this interactive website, where you can explore how artists and groups are interconnected, as well as the explainer notebook with technical details which you can download below. 
 
 
 ## The Dataset
-This project looks into the network of danish music groups, defined by their shared members. All danish music groups are collected from the danish Wikipedia though running thorug all wiki categories of danish groups. The members of the groups are collected from Wikipedia if possible and the music website Discogs otherwise. 
-From this data a network is created, edges of the netwoek being a musician being a part of a music group. This means that musicians only connect to groups and vice versa. This create a bipartite network as shown in the figure below (number of nodes not to scale, for better visualisation). For the analysis, we have focused on the projection of the network, onto musicians and groups respectively. This results in a network where groups are connected if they have at least 1 shared member, and musicians are connected if they have been in the same group.
+This project looks into the network of danish music groups, defined by their shared members. All danish music groups are collected from the danish Wikipedia by running through all Wikipedia categories of danish music groups. The members of the groups are collected from Wikipedia if possible and otherwise from the music website Discogs. 
+From this data, a network is created, edges of the network representing a musician being a part of a music group. This means that musicians only connect to groups and vice versa, which is a bipartite network as shown in the figure below (for better visualisation, the number of nodes are not to scale). For the analysis, we we created two projections of the bipartite network: The Danish Music Groups (DMG) network and the Danish Musicians (DM) network . This results in a network where groups are connected if they have at least 1 shared member (DMG), and musicians are connected if they have been in the same group (DM).
 [![Bipartite_network_model.png](assets/images/Bipartite_network_model.png)](https://aaresh1705.github.io/CSS_project_final/network_test.html)
 
 ## Network and text analysis
-To begin our analysis, we created two projections of the bipartite network: The Danish Music Groups (DMG) network and the Danish Musicians Network. 
+### Basic characteristics of the network
+Below is shown an overview of the network properties. 
 Click the links to go to the interactive plots of the networks.
 
 | Network                                                                                      | Average degree               | Size |
 |----------------------------------------------------------------------------------------------| ---------------------------- | ---- |
-| [Danish Musicians Network](assets/graphs/network.html) | 20.0                         | 4151 |
+| [Danish Musicians (DM) network](assets/graphs/network.html) | 20.0                         | 4151 |
 | [Danish Music Groups (DMG) network](assets/graphs/network.html)                              | 1.36                         | 814  |
 | [Bipartite network](assets/graphs/bipartite.html)                                            | Musicians: 1.23  Groups: 5.84| 4931 |
 
 [![Bipartite_network.svg](assets/images/bipartite_network.svg)](assets/graphs/bipartite.html)
 
-
-### Basic characteristics of the network
 ### Attribute analysis genre
 ### Community detection
+
 
 ## Live Graphs
 
@@ -70,14 +71,14 @@ Click the links to go to the interactive plots of the networks.
 ## Downloads
 ### The dataset
 You can download the raw CSV here:\
-[⬇️ Download `musicians.csv`](../data/musicians.csv)
+[⬇️ Download `musicians.csv`](/data/musicians.csv)
 
 Or take a look at here:\
 [▶️ View `musicians.csv`](https://github.com/Aaresh1705/CSS_project_final/blob/main/data/musicians.csv)
 
 ### The notebook
 You can download the notebook here:\
-[⬇️ Download `final_notebook.ipynb`](../final_notebook.ipynb)
+[⬇️ Download `final_notebook.ipynb`](assets/final_notebook.ipynb)
 
 Or take a look here:\
 [▶️ View `final_notebook.ipynb`](https://github.com/Aaresh1705/CSS_project_final/blob/main/final_notebook.ipynb)
