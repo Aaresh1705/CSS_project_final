@@ -3,7 +3,7 @@ import networkx as nx
 import plotly.graph_objects as go
 
 # 1. Load your saved graphs
-with open("data/groups_graph.pkl", "rb") as f:
+with open("data/wip/groups_graph.pkl", "rb") as f:
     GroupsG = pickle.load(f)
 
 # 2. Extract the largest connected component
