@@ -76,11 +76,14 @@ Below two different partitions of the DMG network is shown, along with their mod
 
 ![partition12_plot.png](assets/images/partition12_plot.png)
 
-We have made a text analysis based on the introduction text of each groups Wikipedia page. The below plot shows the most characteristic words for the biggest 9 communities, as well as the most connected groups, top genres and a sentiment score, reflecting whether the text is more positive or negative. 
+We have made a text analysis based on the introduction text of each groups Wikipedia page. The below plot shows the most characteristic words for the biggest 9 communities, as well as the most connected groups, top genres and a sentiment score, reflecting whether the text is more positive or negative.
+![Wordclouds.png](assets/images/Wordclouds.png)
+
 It can be seen that there is quite a difference between the communities. The biggest community have rock as its primary genre and contain generic music words as "singer", "guitarist", "choir", "song", "playing" as well as "succes", "selling", which might indicate that the community contain well-known rockbands. The second is primarily heavy metal, the third consists of bands from Eurovision Song Contest ("Melodi Grand Prix" in danish). The fifth is all the classical symphony orchestras, which is supported by the wordcloud containing words like "music conservatory", "chief conductor" and "concert hall". 
+
 Some of the other communities are a little harder to interpret, though the combination of genres can be see to differ. Overall it seems like genre is quite a defining factor for how musicians are members of groups. This is not unexpected though as musicians typically will have proficiency in playing in a given genre, and thus participates in groups who play that genre. 
 
 This though, doesn't mean that no musicians overlap in genres. The network is quite connected and have a giant component containing aroud 500 groups - much larger than any individual community.
-![Wordclouds.png](assets/images/Wordclouds.png)
+
 
 
