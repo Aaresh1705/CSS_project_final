@@ -1,24 +1,10 @@
 ---
 layout: default
-title: Computational social science final project
-description: Musician community analysis in Denmark
+title: Musician community analysis in Denmark
+description: Computational social science 02467 project B
 ---
-
-
-## <span style="color:green"> More about the website</span>
-
-<span style="color:green"> This part of the assignment is quite free. The main point of the website is to present your idea/analyses to the world in a way that showcases your use of what you've learned in class. It can be as simple as an old fashioned static web-page, and as complicated as you want it to be. Let your creativity run wild (but keep in mind that this is not a coding class - we care mostly about content and analysis). </span>
-
-<span style="color:green"> The website should be self-contained and tell the story of your dataset without the need for the Explainer Notebook (the purpose of the notebook is to provide additional details for interested readers). Here are some requirements </span>
-
-- [ ] <span style="color:green"> The page should say clearly what the dataset is and give the reader some idea of its most important properties (kind of Project Assignment A-style).</span>
-- [ ] <span style="color:green"> The page should contain your network and text analysis (that's the main part).</span>
-- [x] <span style="color:green"> There should be download options for data sets (so the user can play around).</span>
-- [x] <span style="color:green"> You must link to the Explainer Notebook (more details below) that explains the details of your analysis (including all of the machine learning, the model selection, etc). You can achieve this with a link to a notebook displaying on the nbviewer.</span>
-- [X] <span style="color:green"> For hosting, I recommend using your DTU website or Github pages.</span>
-
 ## Table of contents
-- [Downlaods](#downloads)
+- [Downloads](#downloads)
   - [The dataset](#the-dataset)
   - [The notebook](#the-notebook)
 - [Introduction](#introduction)
@@ -31,13 +17,13 @@ description: Musician community analysis in Denmark
 ## Downloads
 ### The dataset
 You can download the raw CSV here:\
-[⬇️ Download `musicians.csv`](/data/musicians.csv)
+[⬇️ Download `musicians.csv`](/data/musicians.csv) \
 Or take a look at here:\
 [▶️ View `musicians.csv`](https://github.com/Aaresh1705/CSS_project_final/blob/main/data/musicians.csv)
 
 ### The notebook
 You can download the notebook here:\
-[⬇️ Download `final_notebook.ipynb`](assets/final_notebook.ipynb)
+[⬇️ Download `final_notebook.ipynb`](assets/final_notebook.ipynb) \
 Or take a look here:\
 [▶️ View `final_notebook.ipynb`](https://github.com/Aaresh1705/CSS_project_final/blob/main/final_notebook.ipynb)
 
@@ -86,7 +72,7 @@ Here we have two average degrees, one for musicians and one for groups.  This sh
 **What is the structure of the projected networks?** \
 We see in the interactive plots of the projected networks, some nodes (musicians or music groups) are connected very strongly around the middle. It seems as if the distribution degrees are not random. This is emphasized below for both projected networks, where the distributions are plotted against similar randomly generated networks. The degree distributions both seem to follow a heavy-tailed distribution, where a few nodes have very high degrees and most nodes have degrees below the average. This is a natural structure for social networks, among other things. Especially for the DMG network, we see the emergence of potential hubs in the lower right corner of the degree distribution plot. The largest potential hub group has 23 links and is the large jazz band “Kansas City Stompers”. However, the largest hub group is not guaranteed to be the most central one. Centrality is a more robust measure as it also relies on how connected the linking music groups are (and the links of the linking music groups, and so on). We found that the most central music groups of the DMG network are mostly old Danish bands popular in the 70s and 80s. The most central band is the rock group “Lone Kellermann & Rockbandet”, hence it is not the largest hub. It is a bit surprising that these groups are the most central, given our initial understanding of the music scene. However, since we use Wikipedia articles across time periods it might make sense that the network is biased towards older music groups. 
 
-[Group network visulization]
+[![network_genre_colored.svg](assets/images/network_genre_colored.svg)](assets/graphs/network_genre_colored.html)
 
 **Small-world Property** \
 The small-world property describes a type of network where most nodes (musicians) are not directly connected to each other, but can still be reached through a surprisingly small number of steps. We thought it was most interesting and relatable to look at the musicians network. Here we found high clustering of musicians and low average shortest paths in the largest connected grouping of musicians in the network. This strongly suggests that the largest grouping in the musicians' network has the small-world property and that the music scene is very interconnected.
