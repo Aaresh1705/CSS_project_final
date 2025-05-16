@@ -19,6 +19,9 @@ description: Musician community analysis in Denmark
 
 ## Table of contents
 - [Introduction](#introduction)
+- [Downlaods](#downloads)
+  - [The dataset](#the-dataset)
+  - [The notebook](#the-notebook)
 - [The dataset](#the-dataset)
 - [Network and text analysis](#network-and-text-analysis)
   - [Basic characteristics of the network](#basic-characteristics-of-the-network)
