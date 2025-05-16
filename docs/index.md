@@ -13,8 +13,8 @@ description: Musician community analysis in Denmark
 
 - [ ] <span style="color:green"> The page should say clearly what the dataset is and give the reader some idea of its most important properties (kind of Project Assignment A-style).
 - [ ] <span style="color:green"> The page should contain your network and text analysis (that's the main part).
-- [ ] <span style="color:green"> There should be download options for data sets (so the user can play around).
-- [ ] <span style="color:green"> You must link to the Explainer Notebook (more details below) that explains the details of your analysis (including all of the machine learning, the model selection, etc). You can achieve this with a link to a notebook displaying on the nbviewer.
+- [x] <span style="color:green"> There should be download options for data sets (so the user can play around).
+- [x] <span style="color:green"> You must link to the Explainer Notebook (more details below) that explains the details of your analysis (including all of the machine learning, the model selection, etc). You can achieve this with a link to a notebook displaying on the nbviewer.
 - [X] <span style="color:green"> For hosting, I recommend using your DTU website or Github pages.
 
 # Table of contents
