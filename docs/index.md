@@ -61,7 +61,8 @@ Click the links to go to the interactive plots of the networks.
 
 ### Attribute analysis genre
 ### Community detection
-
+[![partition1_plot.png](assets/images/partition1_plot.png)]
+[![partition2_plot.png](assets/images/partition2_plot.png)]
 
 ## Live Graphs
 
