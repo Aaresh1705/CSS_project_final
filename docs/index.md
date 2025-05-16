@@ -52,11 +52,11 @@ This is our bipartite network, where to blue nodes are groups and green nodes ar
 Below is shown an overview of the network properties. 
 Click the links to go to the interactive plots of the networks.
 
-| Network                                                                       | Average degree               | Size |
-|-------------------------------------------------------------------------------| ---------------------------- | ---- |
-| [Danish Musicians (DM) network](assets/graphs/network_mussicals.html)         | 20.0                         | 4151 |
-| [Danish Music Groups (DMG) network](assets/graphs/network_genre_colored.html) | 1.36                         | 814  |
-| [Bipartite network](assets/graphs/bipartite.html)                             | Musicians: 1.23  Groups: 5.84| 4931 |
+| Network                                                                       | Average degree                | Size |
+|-------------------------------------------------------------------------------|-------------------------------| ---- |
+| [Danish Musicians (DM) network](assets/graphs/network_mussicals.html)         | 20.0                          | 4151 |
+| [Danish Music Groups (DMG) network](assets/graphs/network_genre_colored.html) | 1.36                          | 814  |
+| [Bipartite network](assets/graphs/bipartite.html)                             | Musicians: 1.13  Groups: 5.84 | 4931 |
 
 **Danish Musicians Network:** \
 The size is how many musicians there are in the network. The degree of a musician tells how many other musicians this musician has a shared music group with. The degree is thereby the number of links to other associated musicians.
