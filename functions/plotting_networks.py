@@ -13,11 +13,8 @@ def basic_graph_stats(G):
     p = L / ((N*(N-1))/2)  # for undirected graphs, we divide by 2
 
     k = p*(G.number_of_nodes() - 1)
-
-    print(f"Size of network: {N}")
-    print(f"Probability p: {p}")
-    print(f"Average degree: {k}")
-    return None
+    
+    return p,k
 
 
 # Function to visualize the graph F and G in one figure
