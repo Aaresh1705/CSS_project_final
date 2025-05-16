@@ -1,9 +1,6 @@
 title: Computational social science final project; Musician community analysis in Denmark
 description: This project is about analysing the local musician communities in Denmark.
 
-# Pull in Hyde from GitHub…
-remote_theme: poole/hyde
+theme: jekyll-theme-cayman
 
-# …and enable the remote-theme plugin
-plugins:
-  - jekyll-remote-theme
+baseurl: "/CSS_project_final"
