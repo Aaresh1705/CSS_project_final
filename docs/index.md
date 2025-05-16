@@ -8,7 +8,6 @@ description: Computational social science 02467 project B
   - [The dataset](#the-dataset)
   - [The notebook](#the-notebook)
 - [Introduction](#introduction)
-- [The dataset](#the-dataset)
 - [Network and text analysis](#network-and-text-analysis)
   - [Basic characteristics of the network](#basic-characteristics-of-the-network)
   - [Attribute analysis (genre)](#attribute-analysis-genre)
@@ -17,9 +16,9 @@ description: Computational social science 02467 project B
 ## Downloads
 ### The dataset
 You can download the raw CSV here:\
-[⬇️ Download `musicians.csv`](/data/musicians.csv) \
+[⬇️ Download `musicians.csv`](/data/groups_final.csv) \
 Or take a look at here:\
-[▶️ View `musicians.csv`](https://github.com/Aaresh1705/CSS_project_final/blob/main/data/musicians.csv)
+[▶️ View `musicians.csv`](https://github.com/Aaresh1705/CSS_project_final/blob/main/data/groups_final.csv)
 
 ### The notebook
 You can download the notebook here:\
@@ -38,6 +37,7 @@ In our network, musicians are only connected to groups (and not to other musicia
 
 We collected data on Danish music groups by going through all relevant categories on the Danish Wikipedia, and gathered information about group members either from Wikipedia pages or the music database Discogs when needed. 
 Once this data was cleaned and merged, we used it to build the network. For each music group we also fetched the intro text from their wikipedia articles and added a genre-attribute.
+The dataset consists of 4 columns and 796 rows. Each row consist of attributes like group name, group members, genre and description, and each row is a music group. The size of the dataset is 843.3 kB.
 
 Focusing on Denmark keeps the scope of the project manageable while still offering meaningful insights. 
 The final outcome is this interactive website, where you can explore how artists and groups are interconnected, as well as the explainer notebook with technical details which you can download above. 
@@ -52,11 +52,11 @@ This is our bipartite network, where to blue nodes are groups and green nodes ar
 Below is shown an overview of the network properties. 
 Click the links to go to the interactive plots of the networks.
 
-| Network                                                                                      | Average degree               | Size |
-|----------------------------------------------------------------------------------------------| ---------------------------- | ---- |
-| [Danish Musicians (DM) network](assets/graphs/network.html) | 20.0                         | 4151 |
-| [Danish Music Groups (DMG) network](assets/graphs/network.html)                              | 1.36                         | 814  |
-| [Bipartite network](assets/graphs/bipartite.html)                                            | Musicians: 1.23  Groups: 5.84| 4931 |
+| Network                                                                      | Average degree                | Size |
+|------------------------------------------------------------------------------|-------------------------------| ---- |
+| [Danish Musicians (DM) network](assets/graphs/network_musicals.html)         | 20.0                          | 4151 |
+| [Danish Music Groups (DMG) network](assets/graphs/network_genre_colored.html) | 1.36                          | 814  |
+| [Bipartite network](assets/graphs/bipartite.html)                            | Musicians: 1.13  Groups: 5.84 | 4931 |
 
 **Danish Musicians Network:** \
 The size is how many musicians there are in the network. The degree of a musician tells how many other musicians this musician has a shared music group with. The degree is thereby the number of links to other associated musicians.
