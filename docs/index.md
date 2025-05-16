@@ -46,6 +46,15 @@ From this data a network is created, edges of the netwoek being a musician being
 [![Bipartite_network_model.png](assets/images/Bipartite_network_model.png)](https://aaresh1705.github.io/CSS_project_final/network_test.html)
 
 # Network and text analysis
+To begin our analysis, we created two projections of the bipartite network: The Danish Music Groups (DMG) network and the Danish Musicians Network. 
+Click the links to go to the interactive plots of the networks.
+
+| Network                                                                                               | Average degree               | Size |
+|-------------------------------------------------------------------------------------------------------| ---------------------------- | ---- |
+| [Danish Musicians Network](https://aaresh1705.github.io/CSS_project_final/network_test.html)          | 20.0                         | 4151 |
+| [Danish Music Groups (DMG) network](https://aaresh1705.github.io/CSS_project_final/network_test.html) | 1.36                         | 814  |
+| Bipartite network                                                                                     | Musicians: 1.23  Groups: 5.84| 4931 |
+
 ## Basic characteristics of the network
 ## Attribute analysis genre
 ## Community detection
