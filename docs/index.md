@@ -27,22 +27,19 @@ description: Musician community analysis in Denmark
 
 ## Introduction
 
-For this assignment, we investigate the structure of Denmark’s local music scene, by building a network that connects musicians to the bands they play with. 
+For this assignment, we investigate the structure of Denmark’s local music scene, by building a network that connects musicians to the music groups they play in. 
 
 Our goal is to uncover patterns of collaboration, reveal how creative communities form, and perhaps highlight key individuals and groups that act as bridges across different scenes or genres.
 
-To do this, we constructed a bipartite network - a special kind of network made up of two different types of nodes: musicians and groups. 
-In our network, musicians are only connected to groups (and not to other musicians directly), and groups are only connected to musicians. From this, we can create two useful views: one where groups are linked if they share members, and another where musicians are linked if they’ve played in the same groups.
+To do this, we constructed a bipartite network - a special kind of network made up of two different types of nodes: musicians and groups (see model). 
+In our network, musicians are only connected to groups (and not to other musicians directly), and groups are only connected to musicians. From this, we can create two useful projections: one where groups are linked if they share members, and another where musicians are linked if they’ve played in the same groups.
 
 We collected data on Danish music groups by going through all relevant categories on the Danish Wikipedia, and gathered information about group members either from Wikipedia pages or the music database Discogs when needed. 
-Once this data was cleaned and merged, we used it to build the network.
+Once this data was cleaned and merged, we used it to build the network. For each music group we also fetched the intro text from their wikipedia articles and added a genre-attribute.
 
 Focusing on Denmark keeps the scope of the project manageable while still offering meaningful insights. 
 The final outcome is this interactive website, where you can explore how artists and groups are interconnected, as well as the explainer notebook with technical details which you can download below. 
 
-## The Dataset
-This project looks into the network of danish music groups, defined by their shared members. All danish music groups are collected from the danish Wikipedia by running through all Wikipedia categories of danish music groups. The members of the groups are collected from Wikipedia if possible and otherwise from the music website Discogs. 
-From this data, a network is created, edges of the network representing a musician being a part of a music group. This means that musicians only connect to groups and vice versa, which is a bipartite network as shown in the figure below (for better visualisation, the number of nodes are not to scale). For the analysis, we we created two projections of the bipartite network: The Danish Music Groups (DMG) network and the Danish Musicians (DM) network . This results in a network where groups are connected if they have at least 1 shared member (DMG), and musicians are connected if they have been in the same group (DM).
 [![Bipartite_network_model.png](assets/images/Bipartite_network_model.png)](https://aaresh1705.github.io/CSS_project_final/network_test.html)
 
 ## Network and text analysis
