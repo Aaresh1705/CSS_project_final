@@ -4,7 +4,7 @@ title: Computational social science final project
 description: Musician community analysis in Denmark
 ---
 ## Table of contents
-- [Downlaods](#downloads)
+- [Downloads](#downloads)
   - [The dataset](#the-dataset)
   - [The notebook](#the-notebook)
 - [Introduction](#introduction)
