@@ -17,7 +17,7 @@ description: Musician community analysis in Denmark
 - [x] <span style="color:green"> You must link to the Explainer Notebook (more details below) that explains the details of your analysis (including all of the machine learning, the model selection, etc). You can achieve this with a link to a notebook displaying on the nbviewer.
 - [X] <span style="color:green"> For hosting, I recommend using your DTU website or Github pages.
 
-# Table of contents
+## Table of contents
 - [Introduction](#introduction)
 - [The dataset](#the-dataset)
 - [Network and text analysis](#network-and-text-analysis)
@@ -25,7 +25,7 @@ description: Musician community analysis in Denmark
   - [Attribute analysis (genre)](#attribute-analysis-genre)
   - [Community detection](#community-detection)
 
-# Introduction
+## Introduction
 
 For this assignment, we investigate the structure of Denmark’s local music scene by building a network that connects musicians to the bands they play with. '
 Our goal is to uncover patterns of collaboration, reveal how creative communities form, and perhaps highlight key individuals and groups that act as bridges across different scenes or genres.
@@ -40,7 +40,7 @@ Focusing on Denmark keeps the scope of the project manageable while still offeri
 The final outcome will be this interactive website, where you can explore how artists and bands are interconnected. 
 
 
-# The Dataset
+## The Dataset
 This project looks into the network of danish music groups, defined by their shared members. All danish music groups are collected from the danish Wikipedia though running thorug all wiki categories of danish groups. The members of the groups are collected from Wikipedia if possible and the music website Discogs otherwise. 
 From this data a network is created, edges of the netwoek being a musician being a part of a music group. This means that musicians only connect to groups and vice versa. This create a bipartite network as shown in the figure below (number of nodes not to scale, for better visualisation). For the analysis, we have focused on the projection of the network, onto musicians and groups respectively. This results in a network where groups are connected if they have at least 1 shared member, and musicians are connected if they have been in the same group.
 [![Bipartite_network_model.png](assets/images/Bipartite_network_model.png)](https://aaresh1705.github.io/CSS_project_final/network_test.html)
@@ -58,9 +58,9 @@ Click the links to go to the interactive plots of the networks.
 [![Bipartite_network.svg](assets/images/bipartite_network.svg)](https://aaresh1705.github.io/CSS_project_final/bipartite.html)
 
 
-## Basic characteristics of the network
-## Attribute analysis genre
-## Community detection
+### Basic characteristics of the network
+### Attribute analysis genre
+### Community detection
 
 ## Live Graphs
 
