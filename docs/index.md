@@ -18,10 +18,10 @@ description: Musician community analysis in Denmark
 - [X] <span style="color:green"> For hosting, I recommend using your DTU website or Github pages.</span>
 
 ## Table of contents
-- [Introduction](#introduction)
 - [Downlaods](#downloads)
   - [The dataset](#the-dataset)
   - [The notebook](#the-notebook)
+- [Introduction](#introduction)
 - [The dataset](#the-dataset)
 - [Network and text analysis](#network-and-text-analysis)
   - [Basic characteristics of the network](#basic-characteristics-of-the-network)
