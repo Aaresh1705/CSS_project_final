@@ -17,11 +17,27 @@ description: Musician community analysis in Denmark
 - [ ] <span style="color:green"> You must link to the Explainer Notebook (more details below) that explains the details of your analysis (including all of the machine learning, the model selection, etc). You can achieve this with a link to a notebook displaying on the nbviewer.
 - [X] <span style="color:green"> For hosting, I recommend using your DTU website or Github pages.
 # Table of contents
-The dataset
-Network and text analysis
-- Basic characteristics of the network (degree distribution, small world etc)
-- Attribute analysis (genre)
-- community detection
+- [Introduction](#introduction)
+- [The dataset](#the-dataset)
+- [Network and text analysis](#network-and-text-analysis)
+  - [Basic characteristics of the network](#basic-characteristics-of-the-network)
+  - [Attribute analysis (genre)](#attribute-analysis-genre)
+  - [Community detection](#community-detection)
+
+# Introduction
+
+For this assignment, we investigate the structure of Denmark’s local music scene by building a network that connects musicians to the bands they play with. '
+Our goal is to uncover patterns of collaboration, reveal how creative communities form, and perhaps highlight key individuals and groups that act as bridges across different scenes or genres.
+
+To do this, we constructed a bipartite network - a special kind of network made up of two different types of nodes: musicians and bands. 
+In our network, musicians are only connected to bands (and not to other musicians directly), and bands are only connected to musicians. From this, we can create two useful views: one where bands are linked if they share members, and another where musicians are linked if they’ve played in the same band.
+
+We collected data on Danish music groups by going through all relevant categories on the Danish Wikipedia, and gathered information about group members either from Wikipedia pages or the music database Discogs when needed. 
+Once this data was cleaned and merged, we used it to build the network.
+
+Focusing on Denmark keeps the scope of the project manageable while still offering meaningful insights. 
+The final outcome will be this interactive website, where you can explore how artists and bands are interconnected. 
+
 
 # The Dataset
 This project looks into the network of danish music groups, defined by their shared members. All danish music groups are collected from the danish Wikipedia though running thorug all wiki categories of danish groups. The members of the groups are collected from Wikipedia if possible and the music website Discogs otherwise. 
