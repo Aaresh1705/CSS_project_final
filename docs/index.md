@@ -16,7 +16,7 @@ description: Computational social science 02467 project B
 ## Downloads
 ### The dataset
 You can download the raw CSV here:\
-[⬇️ Download `DanishMusicGroups.csv`](/data/groups_final.csv) \
+[⬇️ Download `DanishMusicGroups.csv`](/assets/data/groups_final.csv) \
 Or take a look at here:\
 [▶️ View `DanishMusicGroups.csv`](https://github.com/Aaresh1705/CSS_project_final/blob/main/data/groups_final.csv)
 
