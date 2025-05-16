@@ -58,6 +58,9 @@ The final outcome is this interactive website, where you can explore how artists
 
 [![Bipartite_network_model.png](assets/images/Bipartite_network_model.png)](https://aaresh1705.github.io/CSS_project_final/network_test.html)
 
+This is our bipartite network, where to blue nodes are groups and green nodes are musicians:
+[![Bipartite_network.svg](assets/images/bipartite_network.svg)](assets/graphs/bipartite.html)
+
 ## Network and text analysis
 ### Basic characteristics of the network
 Below is shown an overview of the network properties. 
@@ -84,7 +87,7 @@ Here we have two average degrees, one for musicians and one for groups.  This sh
 We see in the interactive plots of the projected networks, some nodes (musicians or music groups) are connected very strongly around the middle. It seems as if the distribution degrees are not random. This is emphasized below for both projected networks, where the distributions are plotted against similar randomly generated networks. The degree distributions both seem to follow a heavy-tailed distribution, where a few nodes have very high degrees and most nodes have degrees below the average. This is a natural structure for social networks, among other things. Especially for the DMG network, we see the emergence of potential hubs in the lower right corner of the degree distribution plot. The largest potential hub group has 23 links and is the large jazz band “Kansas City Stompers”. However, the largest hub group is not guaranteed to be the most central one. Centrality is a more robust measure as it also relies on how connected the linking music groups are (and the links of the linking music groups, and so on). We found that the most central music groups of the DMG network are mostly old Danish bands popular in the 70s and 80s. The most central band is the rock group “Lone Kellermann & Rockbandet”, hence it is not the largest hub. It is a bit surprising that these groups are the most central, given our initial understanding of the music scene. However, since we use Wikipedia articles across time periods it might make sense that the network is biased towards older music groups. 
 
 
-[![Bipartite_network.svg](assets/images/bipartite_network.svg)](assets/graphs/bipartite.html)
+
 
 ### Attribute analysis genre
 ### Community detection
