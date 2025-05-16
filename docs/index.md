@@ -24,6 +24,19 @@ description: Musician community analysis in Denmark
   - [Basic characteristics of the network](#basic-characteristics-of-the-network)
   - [Attribute analysis (genre)](#attribute-analysis-genre)
   - [Community detection](#community-detection)
+ 
+## Downloads
+### The dataset
+You can download the raw CSV here:\
+[⬇️ Download `musicians.csv`](/data/musicians.csv)
+Or take a look at here:\
+[▶️ View `musicians.csv`](https://github.com/Aaresh1705/CSS_project_final/blob/main/data/musicians.csv)
+
+### The notebook
+You can download the notebook here:\
+[⬇️ Download `final_notebook.ipynb`](assets/final_notebook.ipynb)
+Or take a look here:\
+[▶️ View `final_notebook.ipynb`](https://github.com/Aaresh1705/CSS_project_final/blob/main/final_notebook.ipynb)
 
 ## Introduction
 
@@ -38,22 +51,7 @@ We collected data on Danish music groups by going through all relevant categorie
 Once this data was cleaned and merged, we used it to build the network. For each music group we also fetched the intro text from their wikipedia articles and added a genre-attribute.
 
 Focusing on Denmark keeps the scope of the project manageable while still offering meaningful insights. 
-The final outcome is this interactive website, where you can explore how artists and groups are interconnected, as well as the explainer notebook with technical details which you can download below. 
-
-## Downloads
-### The dataset
-You can download the raw CSV here:\
-[⬇️ Download `musicians.csv`](/data/musicians.csv)
-
-Or take a look at here:\
-[▶️ View `musicians.csv`](https://github.com/Aaresh1705/CSS_project_final/blob/main/data/musicians.csv)
-
-### The notebook
-You can download the notebook here:\
-[⬇️ Download `final_notebook.ipynb`](assets/final_notebook.ipynb)
-
-Or take a look here:\
-[▶️ View `final_notebook.ipynb`](https://github.com/Aaresh1705/CSS_project_final/blob/main/final_notebook.ipynb)
+The final outcome is this interactive website, where you can explore how artists and groups are interconnected, as well as the explainer notebook with technical details which you can download above. 
 
 [![Bipartite_network_model.png](assets/images/Bipartite_network_model.png)](https://aaresh1705.github.io/CSS_project_final/network_test.html)
 
