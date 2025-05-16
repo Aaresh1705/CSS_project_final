@@ -55,21 +55,6 @@ Click the links to go to the interactive plots of the networks.
 | [Danish Music Groups (DMG) network](assets/graphs/network.html)                              | 1.36                         | 814  |
 | [Bipartite network](assets/graphs/bipartite.html)                                            | Musicians: 1.23  Groups: 5.84| 4931 |
 
-**Danish Musicians Network:** \
-The size is how many musicians there are in the network. The degree of a musician tells how many other musicians this musician has a shared music group with. The degree is thereby the number of links to other associated musicians.
-The average degree is then the average of all degrees of musicians and tells something about how connected Danish musicians are. So, on average, one musician shares a music group or groups with 20 other musicians.
-
-**The DMG network** \
-The size is how many music groups there are in the network. The degree of a group tells how many other groups this group shares a musician with. The degree is thereby the number of links to other associated groups.
-The average degree is then the average of all degrees of groups and tells something about how connected Danish musicians are. So, one music group shares one or more musicians with 1.36 other groups on average.
-
-**Bipartite network** \
-Here we have two average degrees, one for musicians and one for groups.  This should be interpreted as follows: On average a musician is a part of 1.23 music groups and on average a music group has 5.84 members.
-
-**What is the structure of the projected networks?** \
-We see in the interactive plots of the projected networks, some nodes (musicians or music groups) are connected very strongly around the middle. It seems as if the distribution degrees are not random. This is emphasized below for both projected networks, where the distributions are plotted against similar randomly generated networks. The degree distributions both seem to follow a heavy-tailed distribution, where a few nodes have very high degrees and most nodes have degrees below the average. This is a natural structure for social networks, among other things. Especially for the DMG network, we see the emergence of potential hubs in the lower right corner of the degree distribution plot. The largest potential hub group has 23 links and is the large jazz band “Kansas City Stompers”. However, the largest hub group is not guaranteed to be the most central one. Centrality is a more robust measure as it also relies on how connected the linking music groups are (and the links of the linking music groups, and so on). We found that the most central music groups of the DMG network are mostly old Danish bands popular in the 70s and 80s. The most central band is the rock group “Lone Kellermann & Rockbandet”, hence it is not the largest hub. It is a bit surprising that these groups are the most central, given our initial understanding of the music scene. However, since we use Wikipedia articles across time periods it might make sense that the network is biased towards older music groups.
-
-
 [![Bipartite_network.svg](assets/images/bipartite_network.svg)](assets/graphs/bipartite.html)
 
 
