@@ -1,4 +1,9 @@
-theme: jekyll-theme-minimal
-
 title: Computational social science final project; Musician community analysis in Denmark
 description: This project is about analysing the local musician communities in Denmark.
+
+# Pull in Hyde from GitHub…
+remote_theme: poole/hyde
+
+# …and enable the remote-theme plugin
+plugins:
+  - jekyll-remote-theme
