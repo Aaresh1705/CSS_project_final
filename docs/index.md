@@ -4,7 +4,7 @@ title: Musician community analysis in Denmark
 description: Computational social science 02467 project B
 ---
 ## Table of contents
-- [Downlaods](#downloads)
+- [Downloads](#downloads)
   - [The dataset](#the-dataset)
   - [The notebook](#the-notebook)
 - [Introduction](#introduction)
