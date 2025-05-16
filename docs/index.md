@@ -5,7 +5,7 @@ description: Musician community analysis in Denmark
 ---
 
 
-# <span style="color:green"> More about the website</span>
+## <span style="color:green"> More about the website</span>
 
 <span style="color:green"> This part of the assignment is quite free. The main point of the website is to present your idea/analyses to the world in a way that showcases your use of what you've learned in class. It can be as simple as an old fashioned static web-page, and as complicated as you want it to be. Let your creativity run wild (but keep in mind that this is not a coding class - we care mostly about content and analysis). </span>
 
@@ -40,6 +40,21 @@ Once this data was cleaned and merged, we used it to build the network. For each
 Focusing on Denmark keeps the scope of the project manageable while still offering meaningful insights. 
 The final outcome is this interactive website, where you can explore how artists and groups are interconnected, as well as the explainer notebook with technical details which you can download below. 
 
+## Downloads
+### The dataset
+You can download the raw CSV here:\
+[⬇️ Download `musicians.csv`](/data/musicians.csv)
+
+Or take a look at here:\
+[▶️ View `musicians.csv`](https://github.com/Aaresh1705/CSS_project_final/blob/main/data/musicians.csv)
+
+### The notebook
+You can download the notebook here:\
+[⬇️ Download `final_notebook.ipynb`](assets/final_notebook.ipynb)
+
+Or take a look here:\
+[▶️ View `final_notebook.ipynb`](https://github.com/Aaresh1705/CSS_project_final/blob/main/final_notebook.ipynb)
+
 [![Bipartite_network_model.png](assets/images/Bipartite_network_model.png)](https://aaresh1705.github.io/CSS_project_final/network_test.html)
 
 ## Network and text analysis
@@ -58,24 +73,5 @@ Click the links to go to the interactive plots of the networks.
 ### Attribute analysis genre
 ### Community detection
 Below two different partitions of the DMG network is shown. 
-![partition12_plot.png](assets/images/partition1_plot.png)
+![partition12_plot.png](assets/images/partition12_plot.png)
 
-## Live Graphs
-
-- [Local Music Community Network](assets/graphs/network.html)  
-- [Rotatable 3D Plot](assets/graphs/rotatable_plot.html)  
-
-## Downloads
-### The dataset
-You can download the raw CSV here:\
-[⬇️ Download `musicians.csv`](/data/musicians.csv)
-
-Or take a look at here:\
-[▶️ View `musicians.csv`](https://github.com/Aaresh1705/CSS_project_final/blob/main/data/musicians.csv)
-
-### The notebook
-You can download the notebook here:\
-[⬇️ Download `final_notebook.ipynb`](assets/final_notebook.ipynb)
-
-Or take a look here:\
-[▶️ View `final_notebook.ipynb`](https://github.com/Aaresh1705/CSS_project_final/blob/main/final_notebook.ipynb)
