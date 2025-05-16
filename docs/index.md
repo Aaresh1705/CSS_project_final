@@ -64,8 +64,8 @@ Click the links to go to the interactive plots of the networks.
 
 ## Live Graphs
 
-- [Local Music Community Network](network.html)  
-- [Rotatable 3D Plot](rotatable_plot.html)  
+- [Local Music Community Network](assets/graphs/network.html)  
+- [Rotatable 3D Plot](assets/graphs/rotatable_plot.html)  
 
 ## Downloads
 ### The dataset
