@@ -49,13 +49,13 @@ From this data a network is created, edges of the netwoek being a musician being
 To begin our analysis, we created two projections of the bipartite network: The Danish Music Groups (DMG) network and the Danish Musicians Network. 
 Click the links to go to the interactive plots of the networks.
 
-| Network                                                                                               | Average degree               | Size |
-|-------------------------------------------------------------------------------------------------------| ---------------------------- | ---- |
-| [Danish Musicians Network](https://aaresh1705.github.io/CSS_project_final/network_test.html)          | 20.0                         | 4151 |
-| [Danish Music Groups (DMG) network](https://aaresh1705.github.io/CSS_project_final/network_test.html) | 1.36                         | 814  |
-| [Bipartite network](https://aaresh1705.github.io/CSS_project_final/bipartite.html)                    | Musicians: 1.23  Groups: 5.84| 4931 |
+| Network                                                                                      | Average degree               | Size |
+|----------------------------------------------------------------------------------------------| ---------------------------- | ---- |
+| [Danish Musicians Network](assets/graphs/network.html) | 20.0                         | 4151 |
+| [Danish Music Groups (DMG) network](assets/graphs/network.html)                              | 1.36                         | 814  |
+| [Bipartite network](assets/graphs/bipartite.html)                                            | Musicians: 1.23  Groups: 5.84| 4931 |
 
-[![Bipartite_network.svg](assets/images/bipartite_network.svg)](https://aaresh1705.github.io/CSS_project_final/bipartite.html)
+[![Bipartite_network.svg](assets/images/bipartite_network.svg)](assets/graphs/bipartite.html)
 
 
 ### Basic characteristics of the network
@@ -70,14 +70,14 @@ Click the links to go to the interactive plots of the networks.
 ## Downloads
 ### The dataset
 You can download the raw CSV here:\
-[⬇️ Download `musicians.csv`](data/musicians.csv)
+[⬇️ Download `musicians.csv`](../data/musicians.csv)
 
 Or take a look at here:\
 [▶️ View `musicians.csv`](https://github.com/Aaresh1705/CSS_project_final/blob/main/data/musicians.csv)
 
 ### The notebook
 You can download the notebook here:\
-[⬇️ Download `final_notebook.ipynb`](final_notebook.ipynb)
+[⬇️ Download `final_notebook.ipynb`](../final_notebook.ipynb)
 
 Or take a look here:\
 [▶️ View `final_notebook.ipynb`](https://github.com/Aaresh1705/CSS_project_final/blob/main/final_notebook.ipynb)
