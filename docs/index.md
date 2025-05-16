@@ -53,7 +53,7 @@ Click the links to go to the interactive plots of the networks.
 |-------------------------------------------------------------------------------------------------------| ---------------------------- | ---- |
 | [Danish Musicians Network](https://aaresh1705.github.io/CSS_project_final/network_test.html)          | 20.0                         | 4151 |
 | [Danish Music Groups (DMG) network](https://aaresh1705.github.io/CSS_project_final/network_test.html) | 1.36                         | 814  |
-| Bipartite network                                                                                     | Musicians: 1.23  Groups: 5.84| 4931 |
+| [Bipartite network](https://aaresh1705.github.io/CSS_project_final/bipartite.html)                    | Musicians: 1.23  Groups: 5.84| 4931 |
 
 [![Bipartite_network.svg](assets/images/bipartite_network.svg)](https://aaresh1705.github.io/CSS_project_final/bipartite.html)
 
