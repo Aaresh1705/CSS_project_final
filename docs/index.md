@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Computational social science final project
-description: Musician community analysis in Denmark
+title: Musician community analysis in Denmark
+description: Computational social science 02467 project B
 ---
 ## Table of contents
 - [Downlaods](#downloads)
