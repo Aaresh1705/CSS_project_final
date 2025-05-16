@@ -75,6 +75,7 @@ Click the links to go to the interactive plots of the networks.
 Below two different partitions of the DMG network is shown, along with their modularity, which is a measure of how well a partition divides a network into community, ranging from -1 to 1. Furthermore as seen below, partition 1 finds one big community containing 91 groups, and a lot of smaller ones (mostly of size 2 and 3), whereas partition 2 finds communities with sizes much more evenly distributed. As we want to find bigger patterns in the connections between music groups, we care about having more communities of bigger size. For further analysis we have therefore focused on partition 2. 
 
 ![partition12_plot.png](assets/images/partition12_plot.png)
+![size_distribution.png](assets/images/size_distribution.png)
 
 We have made a text analysis based on the introduction text of each groups Wikipedia page. The below plot shows the most characteristic words for the biggest 9 communities, as well as the most connected groups, top genres and a sentiment score, reflecting whether the text is more positive or negative.
 ![Wordclouds.png](assets/images/Wordclouds.png)
