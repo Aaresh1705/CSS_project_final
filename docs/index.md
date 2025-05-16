@@ -86,10 +86,28 @@ Here we have two average degrees, one for musicians and one for groups.  This sh
 **What is the structure of the projected networks?** \
 We see in the interactive plots of the projected networks, some nodes (musicians or music groups) are connected very strongly around the middle. It seems as if the distribution degrees are not random. This is emphasized below for both projected networks, where the distributions are plotted against similar randomly generated networks. The degree distributions both seem to follow a heavy-tailed distribution, where a few nodes have very high degrees and most nodes have degrees below the average. This is a natural structure for social networks, among other things. Especially for the DMG network, we see the emergence of potential hubs in the lower right corner of the degree distribution plot. The largest potential hub group has 23 links and is the large jazz band “Kansas City Stompers”. However, the largest hub group is not guaranteed to be the most central one. Centrality is a more robust measure as it also relies on how connected the linking music groups are (and the links of the linking music groups, and so on). We found that the most central music groups of the DMG network are mostly old Danish bands popular in the 70s and 80s. The most central band is the rock group “Lone Kellermann & Rockbandet”, hence it is not the largest hub. It is a bit surprising that these groups are the most central, given our initial understanding of the music scene. However, since we use Wikipedia articles across time periods it might make sense that the network is biased towards older music groups. 
 
+[Group network visulization]
 
+**Small-world Property** \
+The small-world property describes a type of network where most nodes (musicians) are not directly connected to each other, but can still be reached through a surprisingly small number of steps. We thought it was most interesting and relatable to look at the musicians network. Here we found high clustering of musicians and low average shortest paths in the largest connected grouping of musicians in the network. This strongly suggests that the largest grouping in the musicians' network has the small-world property and that the music scene is very interconnected.
+
+In our continued network analysis, we will mainly focus on the Danish Music Groups (DMG) network to narrow the scope and enable a more in-depth exploration. This is mainly because music groups also will be the focus of our text analysis. Very few musicians (of famous bands even) don’t have a wikipedia article, although fairly unknown bands have.
 
 
 ### Attribute analysis genre
+In this section, we examine how the connections between music groups align with their musical genres. Since bands often span multiple genres, we use a similarity measure that reflects how much of their genre profiles overlap. Specifically, we calculate the proportion of shared genres between two bands relative to the total number of genres they each belong to (called jaccard similarity).
+
+We found that the average genre similarity between connected music groups—those that share at least one member—is significantly higher than the global average similarity between all music groups in the dataset.
+
+This suggests that musicians tend to collaborate within similar musical styles, leading to genre-based clustering in the network. In other words, bands that share members are more likely to be stylistically aligned, reinforcing the idea that creative communities often form around shared musical identities. 
+
+Revisiting the plotted DMG network (link above), we see a clear example of this: a nearly isolated cluster at the bottom of the central component primarily consists of the genres “classical” and “choral”, which are closely related. Meanwhile, the densely connected core of the network is dominated by more mainstream and cross-collaborative genres such as “rock” and “pop”, reflecting their central role in the broader music scene.
+
+Surprisingly, “jazz” is also very present in this central area, suggesting that jazz musicians frequently collaborate with more popular genre bands. This may be due to the relatively small size of the Danish music scene, where musicians often span multiple genres, and because performing with more mainstream acts may offer greater financial opportunities for jazz musicians.
+
+Notably, one music group,“Sønderjyllands Symfoniorkestra”, serves as the only connection between the “classical/choral” cluster and the “rock/pop/jazz” cluster. This indicates that cross-genre collaboration between these otherwise separate musical communities is rare and it could be an interesting music group to look into for further investigation.
+
+
 ### Community detection
 Below two different partitions of the DMG network is shown, along with their modularity, which is a measure of how well a partition divides a network into community, ranging from -1 to 1. Furthermore as seen below, partition 1 finds one big community containing 91 groups, and a lot of smaller ones (mostly of size 2 and 3), whereas partition 2 finds communities with sizes much more evenly distributed. As we want to find bigger patterns in the connections between music groups, we care about having more communities of bigger size. For further analysis we have therefore focused on partition 2. 
 
