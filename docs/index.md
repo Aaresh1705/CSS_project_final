@@ -45,7 +45,7 @@ This project looks into the network of danish music groups, defined by their sha
 From this data a network is created, edges of the netwoek being a musician being a part of a music group. This means that musicians only connect to groups and vice versa. This create a bipartite network as shown in the figure below (number of nodes not to scale, for better visualisation). For the analysis, we have focused on the projection of the network, onto musicians and groups respectively. This results in a network where groups are connected if they have at least 1 shared member, and musicians are connected if they have been in the same group.
 [![Bipartite_network_model.png](assets/images/Bipartite_network_model.png)](https://aaresh1705.github.io/CSS_project_final/network_test.html)
 
-# Network and text analysis
+## Network and text analysis
 To begin our analysis, we created two projections of the bipartite network: The Danish Music Groups (DMG) network and the Danish Musicians Network. 
 Click the links to go to the interactive plots of the networks.
 
